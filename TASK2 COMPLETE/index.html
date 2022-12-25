@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body> 
+    <div class = "main">
+    <form
+      name="myForm"
+      onsubmit="return form1() "
+      class="container1"
+      id="form1" 
+      method="post"
+    >
+      <div class="mb-3">
+        <h1>Sign In</h1>
+        <br /><br />
+
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          placeholder="EMAIL ADDRESS*"
+          name="email"
+          oninput = "emailfunc()"
+        /><br />
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          oninput ="passwordfun()"
+          placeholder="PASSWORD*"
+          name="password1"
+        /><br />
+        <input
+          type="submit"
+          name="email_submit"
+          value="SIGN IN"
+          id="SIGNINBUTTON"
+          />
+        <p style= "color: black;">Don't have an account?<a href="registerform.html" id="">Register Form</a></p>
+      </div>
+    </form>
+    </div>
+    
+
+   
+    <script src="myscript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <form
+        name="myForm2"
+        onsubmit="return form2()"
+        method="post"
+        class="container2"
+        id="form2"
+      >
+        <div class="mb-3">
+          <h1>Sign Up</h1>
+          <br /><br /><br />
+          <input type="text" placeholder="First Name*" id="name" name="fname" oninput = "fname123()" />
+          <input
+            type="text"
+            placeholder="Last Name*"
+            id="lname"
+            name="lname"
+            oninput="lname123()"
+          /><br /><br />
+          <input
+            type="email"
+            class="form-control"
+            id="email1"
+            placeholder="email*"
+            name="email2"
+            oninput="emailfunc2()"
+          /><br />
+          <input
+            type="email"
+            class="form-control"
+            id="conemail1"
+            placeholder="Confirm Email*"
+            oninput = "conmail()"
+            name="emailcon2"
+          /><br />
+          <input
+            type="password"
+            class="form-control"
+            id="pass1"
+            placeholder="Password*"
+            name="password2"
+            oninput = "passwordfunc2()"
+          /><br />
+          <input
+            type="password"
+            class="form-control"
+            id="conpass1"
+            placeholder="Confirm Password*"
+            name="passwordcon2"
+            oninput="conpassword()"
+          /><br />
+          <input type="checkbox" require/> ACCEPT Terms and Conditions<br /><br />
+          <input type="submit" value="Sign Up" id="SIGNUP" />
+          <p style="color: black">
+            If already have account?<a href="index.html" id="">Login Form</a>
+          </p>
+        </div>
+      </form>
+    </div>
+
+    <script src="myscript.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 20;
+    background-color: blue;
+    color: white;
+    margin: 0px;
+    border: 0px;
+  }
+
+  .formstyle {
+    width: 402px;
+    height: 383px;
+    margin: auto;
+    border: 1px solid grey;
+  }
+
+  input {
+    width: 75px;
+    color: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 26px;
+    height: 46px;
+  }
+
+  #answer {
+    margin: 0px;
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+  }
+
+  .operationItem {
+    color: blue;;
+  }
+
+  #equal{height: 245px; float: right; background-color: blue; color:white;
+
+  }
+
+  #AC {
+    background-color: red; color:white;
+  }

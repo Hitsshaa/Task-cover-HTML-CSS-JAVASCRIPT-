@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
+
+.main {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+  }
+  .container1 {
+     border: 1px solid blue;
+     text-align: center;
+    color: blue;
+    padding: 20px;
+    width: 50%;
+    border: ;  
+  }
+  .container2 {
+    height: 600px;
+    text-align: center;
+    color: blue;
+    padding: 30px;
+    width: 50%;
+    border: 1px solid blue;
+  }
+
+  
+  #SIGNUP {
+    width: 100%;
+    background-color: BLUE;
+    color: white;
+  }
+  
+
+  #SIGNINBUTTON {
+    width: 100%;
+    background-color: BLUE;
+    color: white;
+  }
+ 
+#name {
+    float: left;
+    width:49%
+
+}
+#lname {
+    float: right;
+    width:49%
+
+}
+  

@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  #cont1 {
+    width: 70%;
+    margin: auto;
+    
+  }
+
+  table {
+   
+    margin:auto;
+  } 
+
+  th {
+    background-color:aqua;
+    color:rgb(82, 12, 12);
+  }
+ 
+  td{
+    background-color: yellow;
+    color:black;
+  }
+
+  tr,th,td {
+   
+    border: 1px solid black;
+  } 
+
+  #action {
+    width:10%
+  }
+
+
+  /* REG CSS */
+
+  #center{
+    margin:auto;
+    border: 1px solid blue;
+}
+
+#regmain {
+    border: 1px solid blue;
+    width:50%;
+    margin:auto;
+}
+
+#ADD_USER{
+  background-color: green;
+  color:white
+}
+
+.blue {
+  background-color: blue;
+  color:white
+}
+
+.red {
+  background-color: red;
+  color:white
+}
+
+#Submit{
+  background-color: green;
+  color:white;
+
+}
+
+#Back {
+  background-color: blue;
+  color:white;
+}
+
+#Search {
+  width:40%;
+  height: 40px;
+}
+
+#Search1 {
+  width:40%;
+  height: 40px;
+}
+#Search2 {
+  width:40%;
+  height: 40px;
+  margin-top: 4px;
+}
